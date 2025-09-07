@@ -1,0 +1,7 @@
+lptop,2
+qwe,3
+s,3
+asd,11
+asd,11
+q,3
+,
