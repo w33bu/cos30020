@@ -1,0 +1,5 @@
+
+P0001	Segg	"123456"	10/06/22	Full-time	On-going	Post, Mail	Ha Noi
+P0002	Asdasd	"sazx"	17/06/22	Full-time	On-going	Post	Ha Noi
+P0003	Help	"tsm"	30/06/22	Full-time	On-going	Mail	Hue
+P0004	Sdfsdf	"zdcds"	19/06/22	Part-time	Fixedterm	Mail	Da Nang

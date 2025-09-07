@@ -1,0 +1,152 @@
+:root{
+    --Color_Background: #2B2D42;
+    --Color_Font: #EDF2F4;
+    --Color_Font_hover: #2B2D42;
+    --Color_Button: #2B2D42;
+    --Color_Button_Hover: #D90429;
+}
+
+body{
+    height: 100%;
+    background-color: #008080;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--Color_Font);
+
+}
+
+header{
+
+    border: solid #EE243D 1px;
+    background-color: #EE243D;
+
+    text-align: center;
+    text-shadow: 4px 6px 15px #000000;
+    margin: 0px 0.5%;
+}
+
+header h2{
+    background-color: var(--Color_Background);
+    margin: 15px 35% 5px 35%;
+}
+
+.page{
+    margin: auto;
+    padding: 10px;
+}
+
+.logo{
+    box-shadow: 8px 12px 25px 0px;
+    width: 128px;
+	
+
+    margin-bottom: 15px;
+}
+
+.navBar{
+    padding: 10px;
+    width: 8%;
+    float: left;
+}
+
+.navBar a{
+    border: black solid 1px;
+    box-shadow: 8px 12px 25px 0px #000000;
+
+    background-color: var(--Color_Button);
+    color: var(--Color_Font);
+    text-decoration: none;
+
+    text-align: center;
+    display: block;
+    margin: 5%;
+    padding: 5px;
+}
+
+.navBar a:hover{
+    font-weight: bolder;
+    background-color: var(--Color_Button_Hover);
+}
+
+.navBar .current{
+    background-color: #EF233C;
+    font-weight: bolder;
+}
+
+.content{
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.personalInfo th{
+    text-align: left;
+    padding-right: 10px;
+}
+
+.alertMessage{
+    text-shadow: 0 0 5px #000000;
+
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    padding: 5px 12px;
+    margin: 5px 14px;
+}
+
+#alertFail{
+    background-color: #DC143C;
+}
+
+#alertNotice{
+    background-color: #DC143C;
+}
+
+#alertSuccess{
+    background-color: #DC143C;
+}
+
+form td{
+    margin-top: 5px;
+}
+
+form p{
+    padding: 0px 5px;
+    text-align: right;
+}
+
+form input[type=text], input[type=password], input[type=email]{
+    background-color: var(--Color_Background);
+    color: var(--Color_Font);
+
+    padding: 2px 5px;
+}
+
+input[type=submit], input[type=reset]{
+    padding: 2px 5px;
+    margin: 2px 5px;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 4px;
+    margin: 5px;
+
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+input[type=submit]:active, input[type=reset]:active{
+    box-shadow: 4px 6px 10px 0px #000000;
+}
+
+
+.friendList td{
+    border: 1px solid black;
+    padding: 1px 2px;
+}
+
+.friendList p{
+    text-align: left;
+}
+
